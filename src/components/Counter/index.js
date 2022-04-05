@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
+import { useSelector } from 'react-redux'
 
 export const Counter = () => {
   
-    const [counter, setCounter] = useState(0);
+    const counter = useSelector(state => state.counter)
 
     return (
         <div>

@@ -1,9 +1,13 @@
 import React from 'react'
+import { useDispatch } from 'react-redux'
+import { increase } from '../../redux/actions'
 
 export const Increase = () => {
 
+    const dispatch = useDispatch()
+
     const handleIncrease = () => {
-        alert('handle Increase')
+        dispatch(increase())
     }
 
     return (
