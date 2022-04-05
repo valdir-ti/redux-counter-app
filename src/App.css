@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  margin-top: 100px;
+}
+
+.App > h2 {
+  font-size: 50px;
+  margin: 20px;
+  padding: 0;
 }
 
 .App-logo {
@@ -35,4 +42,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.counter-container{
+
+}
+
+.counter-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter{
+  font-size: 50px;
+  padding: 0;
+  margin: 20px;
+}
+
+.button-increase {
+  background: green;
+  min-width: 120px;
+  color: #fff;
+  font-weight: 800;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.button-decrease {
+  background: red;
+  min-width: 120px;
+  color: #fff;
+  font-weight: 800;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
 }
