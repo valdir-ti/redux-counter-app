@@ -8,7 +8,7 @@ export const Decrease = () => {
 
     return (
         <div>
-            <button className='button-decrease' onClick={() => dispatch(decrease())}>
+            <button className='button-decrease' onClick={() => dispatch(decrease())} title="Decrease counter">
                 Decrease
             </button>
         </div>

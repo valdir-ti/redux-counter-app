@@ -12,7 +12,7 @@ export const Increase = () => {
 
     return (
         <div>
-            <button className='button-increase' onClick={handleIncrease}>
+            <button className='button-increase' onClick={handleIncrease} title="Increase counter">
                 Increase
             </button>
         </div>

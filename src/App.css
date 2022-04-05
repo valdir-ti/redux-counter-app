@@ -70,8 +70,13 @@
   padding: 10px;
   font-size: 18px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
+.button-increase:hover {
+  background: rgb(42, 158, 42);
+}
+  
 .button-decrease {
   background: red;
   min-width: 120px;
@@ -81,4 +86,9 @@
   border-radius: 5px;
   padding: 10px;
   font-size: 18px;
+  cursor: pointer;
+}
+
+.button-decrease:hover {
+  background: rgb(235, 80, 80);
 }
